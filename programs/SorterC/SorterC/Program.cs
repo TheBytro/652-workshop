@@ -1,9 +1,4 @@
-﻿List<int> list = new List<int>();
-
-var r = new Random();
-
-for (int i = 0; i < 10; i++)
-    list.Add(r.Next(0, 100) + 1);
+﻿List<int> list = new List<int>{ 25, 45, 35, 68, 14, 8, 37, 24, 85, 35};
 
 Console.WriteLine($"Unsorted: [{string.Join(", ", list)}]");
 list.Sort();
